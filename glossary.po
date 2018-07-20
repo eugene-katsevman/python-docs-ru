@@ -3,36 +3,41 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-18 19:36+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-07-20 12:41+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: \n"
+"Language-Team: RU\n"
+"Language: ru\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../Doc/glossary.rst:5
 msgid "Glossary"
-msgstr ""
+msgstr "Глоссарий"
 
 #: ../Doc/glossary.rst:10
 msgid "``>>>``"
-msgstr ""
+msgstr "``>>>``"
 
 #: ../Doc/glossary.rst:12
 msgid ""
 "The default Python prompt of the interactive shell.  Often seen for code "
 "examples which can be executed interactively in the interpreter."
 msgstr ""
+"Приглашение интерактивной оболочки Python по-умолчанию. Часто встречается в "
+"тех примерах, которые можно запустить интерактивно в интерпретаторе."
 
 #: ../Doc/glossary.rst:14
 msgid "``...``"
-msgstr ""
+msgstr "``...``"
 
 #: ../Doc/glossary.rst:16
 msgid ""
@@ -41,10 +46,14 @@ msgid ""
 "delimiters (parentheses, square brackets, curly braces or triple quotes), or "
 "after specifying a decorator."
 msgstr ""
+"Приглашение интерактивной оболочки Python по-умолчанию, когда вводится блок "
+"кода с отступом, после декторатора или между соотвествующими друг другу "
+"разделителями (круглыми скобками, квадратными скобками, фигурными скобками и "
+"тройными кавычками). "
 
 #: ../Doc/glossary.rst:20
 msgid "2to3"
-msgstr ""
+msgstr "2to3"
 
 #: ../Doc/glossary.rst:22
 msgid ""
@@ -52,6 +61,9 @@ msgid ""
 "most of the incompatibilities which can be detected by parsing the source "
 "and traversing the parse tree."
 msgstr ""
+"Инструмент, автоматически переводящий код с Python 2.x на Python 3.x. Он "
+"обрабатывает большинство и тех различий, которые можно обнаружить при "
+"просмотре исходиников и обработка синтаксического дерева."
 
 #: ../Doc/glossary.rst:26
 msgid ""
@@ -59,10 +71,13 @@ msgid ""
 "entry point is provided as :file:`Tools/scripts/2to3`.  See :ref:`2to3-"
 "reference`."
 msgstr ""
+"Инструмент 2to3 доступен в стандартной библиотеке как :mod:`lib2to2`; "
+"Отдельная точка входа находится в :file:`Tools/scripts/2to3`. See :ref:`2to3-"
+"reference`."
 
 #: ../Doc/glossary.rst:29
 msgid "abstract base class"
-msgstr ""
+msgstr "абстрактный базовый класс"
 
 #: ../Doc/glossary.rst:31
 msgid ""
@@ -80,7 +95,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:42
 msgid "annotation"
-msgstr ""
+msgstr "аннотация"
 
 #: ../Doc/glossary.rst:44
 msgid ""
@@ -104,7 +119,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:56
 msgid "argument"
-msgstr ""
+msgstr "аргумент"
 
 #: ../Doc/glossary.rst:58
 msgid ""
@@ -145,7 +160,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:86
 msgid "asynchronous context manager"
-msgstr ""
+msgstr "асинхронный менеджер контекста"
 
 #: ../Doc/glossary.rst:88
 msgid ""
@@ -156,7 +171,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:91
 msgid "asynchronous generator"
-msgstr ""
+msgstr "асинхронный генератор"
 
 #: ../Doc/glossary.rst:93
 msgid ""
@@ -181,7 +196,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:105
 msgid "asynchronous generator iterator"
-msgstr ""
+msgstr "асинхронный генераторный итератор"
 
 #: ../Doc/glossary.rst:107
 msgid "An object created by a :term:`asynchronous generator` function."
@@ -206,7 +221,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:119
 msgid "asynchronous iterable"
-msgstr ""
+msgstr "асинхронное итерируемое"
 
 #: ../Doc/glossary.rst:121
 msgid ""
@@ -217,7 +232,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:124
 msgid "asynchronous iterator"
-msgstr ""
+msgstr "асинхронный итератор"
 
 #: ../Doc/glossary.rst:126
 msgid ""
@@ -230,7 +245,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:131
 msgid "attribute"
-msgstr ""
+msgstr "атрибут"
 
 #: ../Doc/glossary.rst:133
 msgid ""
@@ -241,7 +256,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:136
 msgid "awaitable"
-msgstr ""
+msgstr "ожидаемое"
 
 #: ../Doc/glossary.rst:138
 msgid ""
@@ -262,7 +277,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:145
 msgid "binary file"
-msgstr ""
+msgstr "двоичный файл"
 
 #: ../Doc/glossary.rst:147
 msgid ""
@@ -281,7 +296,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:156
 msgid "bytes-like object"
-msgstr ""
+msgstr "байтоподобный объект"
 
 #: ../Doc/glossary.rst:158
 msgid ""
@@ -305,7 +320,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:173
 msgid "bytecode"
-msgstr ""
+msgstr "байткод"
 
 #: ../Doc/glossary.rst:175
 msgid ""
@@ -327,7 +342,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:187
 msgid "class"
-msgstr ""
+msgstr "класс"
 
 #: ../Doc/glossary.rst:189
 msgid ""
@@ -337,7 +352,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:192
 msgid "class variable"
-msgstr ""
+msgstr "переменная класса"
 
 #: ../Doc/glossary.rst:194
 msgid ""
@@ -363,7 +378,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:206
 msgid "complex number"
-msgstr ""
+msgstr "комплексное число"
 
 #: ../Doc/glossary.rst:208
 msgid ""
@@ -380,7 +395,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:218
 msgid "context manager"
-msgstr ""
+msgstr "менеджер контекста"
 
 #: ../Doc/glossary.rst:220
 msgid ""
@@ -405,7 +420,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:235
 msgid "coroutine"
-msgstr ""
+msgstr "корутина"
 
 #: ../Doc/glossary.rst:237
 msgid ""
@@ -417,7 +432,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:242
 msgid "coroutine function"
-msgstr ""
+msgstr "функция-корутина"
 
 #: ../Doc/glossary.rst:244
 msgid ""
@@ -429,7 +444,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:249
 msgid "CPython"
-msgstr ""
+msgstr "CPython"
 
 #: ../Doc/glossary.rst:251
 msgid ""
@@ -441,7 +456,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:255
 msgid "decorator"
-msgstr ""
+msgstr "декоратор"
 
 #: ../Doc/glossary.rst:257
 msgid ""
@@ -465,7 +480,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:275
 msgid "descriptor"
-msgstr ""
+msgstr "дескриптор"
 
 #: ../Doc/glossary.rst:277
 msgid ""
@@ -487,7 +502,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:288
 msgid "dictionary"
-msgstr ""
+msgstr "словарь"
 
 #: ../Doc/glossary.rst:290
 msgid ""
@@ -511,7 +526,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:301
 msgid "docstring"
-msgstr ""
+msgstr "докстринг"
 
 #: ../Doc/glossary.rst:303
 msgid ""
@@ -524,7 +539,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:309
 msgid "duck-typing"
-msgstr ""
+msgstr "утиная типизация"
 
 #: ../Doc/glossary.rst:311
 msgid ""
@@ -555,7 +570,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:328
 msgid "expression"
-msgstr ""
+msgstr "выражение"
 
 #: ../Doc/glossary.rst:330
 msgid ""
@@ -570,7 +585,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:337
 msgid "extension module"
-msgstr ""
+msgstr "модуль расширения"
 
 #: ../Doc/glossary.rst:339
 msgid ""
@@ -580,7 +595,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:341
 msgid "f-string"
-msgstr ""
+msgstr "ф-строка"
 
 #: ../Doc/glossary.rst:343
 msgid ""
@@ -591,7 +606,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:346
 msgid "file object"
-msgstr ""
+msgstr "файловый объект"
 
 #: ../Doc/glossary.rst:348
 msgid ""
@@ -614,7 +629,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:361
 msgid "file-like object"
-msgstr ""
+msgstr "файлоподобный объект"
 
 #: ../Doc/glossary.rst:363
 msgid "A synonym for :term:`file object`."
@@ -622,7 +637,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:364
 msgid "finder"
-msgstr ""
+msgstr "финдер"
 
 #: ../Doc/glossary.rst:366
 msgid ""
@@ -643,7 +658,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:374
 msgid "floor division"
-msgstr ""
+msgstr "деление с округлением вниз"
 
 #: ../Doc/glossary.rst:376
 msgid ""
@@ -656,7 +671,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:381
 msgid "function"
-msgstr ""
+msgstr "функция"
 
 #: ../Doc/glossary.rst:383
 msgid ""
@@ -668,7 +683,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:387
 msgid "function annotation"
-msgstr ""
+msgstr "аннотация функции"
 
 #: ../Doc/glossary.rst:389
 msgid "An :term:`annotation` of a function parameter or return value."
@@ -693,7 +708,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:403
 msgid "__future__"
-msgstr ""
+msgstr "__future__"
 
 #: ../Doc/glossary.rst:405
 msgid ""
@@ -710,7 +725,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:415
 msgid "garbage collection"
-msgstr ""
+msgstr "сборка мусора"
 
 #: ../Doc/glossary.rst:417
 msgid ""
@@ -722,7 +737,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:423
 msgid "generator"
-msgstr ""
+msgstr "генератор"
 
 #: ../Doc/glossary.rst:425
 msgid ""
@@ -741,7 +756,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:433
 msgid "generator iterator"
-msgstr ""
+msgstr "генераторный итератор"
 
 #: ../Doc/glossary.rst:435
 msgid "An object created by a :term:`generator` function."
@@ -757,7 +772,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:444
 msgid "generator expression"
-msgstr ""
+msgstr "генераторное выражение"
 
 #: ../Doc/glossary.rst:446
 msgid ""
@@ -769,7 +784,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:453
 msgid "generic function"
-msgstr ""
+msgstr "генерик-функция"
 
 #: ../Doc/glossary.rst:455
 msgid ""
@@ -786,7 +801,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:462
 msgid "GIL"
-msgstr ""
+msgstr "GIL"
 
 #: ../Doc/glossary.rst:464
 msgid "See :term:`global interpreter lock`."
@@ -837,7 +852,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:492
 msgid "hashable"
-msgstr ""
+msgstr "хешируемый"
 
 #: ../Doc/glossary.rst:494
 msgid ""
@@ -864,7 +879,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:507
 msgid "IDLE"
-msgstr ""
+msgstr "IDLE"
 
 #: ../Doc/glossary.rst:509
 msgid ""
@@ -875,7 +890,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:512
 msgid "immutable"
-msgstr ""
+msgstr "иммутабельный"
 
 #: ../Doc/glossary.rst:514
 msgid ""
@@ -888,7 +903,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:519
 msgid "import path"
-msgstr ""
+msgstr "путь импорта"
 
 #: ../Doc/glossary.rst:521
 msgid ""
@@ -900,7 +915,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:526
 msgid "importing"
-msgstr ""
+msgstr "импортирование"
 
 #: ../Doc/glossary.rst:528
 msgid ""
@@ -910,7 +925,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:530
 msgid "importer"
-msgstr ""
+msgstr "импортирующий"
 
 #: ../Doc/glossary.rst:532
 msgid ""
@@ -920,7 +935,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:534
 msgid "interactive"
-msgstr ""
+msgstr "интерактивный"
 
 #: ../Doc/glossary.rst:536
 msgid ""
@@ -933,7 +948,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:542
 msgid "interpreted"
-msgstr ""
+msgstr "интерпретируемый"
 
 #: ../Doc/glossary.rst:544
 msgid ""
@@ -947,7 +962,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:551
 msgid "interpreter shutdown"
-msgstr ""
+msgstr "завершение работы интерпретатора"
 
 #: ../Doc/glossary.rst:553
 msgid ""
@@ -969,7 +984,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:564
 msgid "iterable"
-msgstr ""
+msgstr "итерируемый"
 
 #: ../Doc/glossary.rst:566
 msgid ""
@@ -996,7 +1011,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:583
 msgid "iterator"
-msgstr ""
+msgstr "итератор"
 
 #: ../Doc/glossary.rst:585
 msgid ""
@@ -1022,7 +1037,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:601
 msgid "key function"
-msgstr ""
+msgstr "ключевая функция"
 
 #: ../Doc/glossary.rst:603
 msgid ""
@@ -1053,7 +1068,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:622
 msgid "keyword argument"
-msgstr ""
+msgstr "keyword-аргумент"
 
 #: ../Doc/glossary.rst:624 ../Doc/glossary.rst:883
 msgid "See :term:`argument`."
@@ -1061,7 +1076,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:625
 msgid "lambda"
-msgstr ""
+msgstr "лябмда"
 
 #: ../Doc/glossary.rst:627
 msgid ""
@@ -1093,7 +1108,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:642
 msgid "list"
-msgstr ""
+msgstr "список"
 
 #: ../Doc/glossary.rst:644
 msgid ""
@@ -1104,7 +1119,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:647
 msgid "list comprehension"
-msgstr ""
+msgstr "списковое выражение"
 
 #: ../Doc/glossary.rst:649
 msgid ""
@@ -1117,7 +1132,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:655
 msgid "loader"
-msgstr ""
+msgstr "загрузчик"
 
 #: ../Doc/glossary.rst:657
 msgid ""
@@ -1129,7 +1144,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:661
 msgid "mapping"
-msgstr ""
+msgstr "отображение"
 
 #: ../Doc/glossary.rst:663
 msgid ""
@@ -1160,7 +1175,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:677
 msgid "metaclass"
-msgstr ""
+msgstr "метакласс"
 
 #: ../Doc/glossary.rst:679
 msgid ""
@@ -1181,7 +1196,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:690
 msgid "method"
-msgstr ""
+msgstr "метод"
 
 #: ../Doc/glossary.rst:692
 msgid ""
@@ -1193,7 +1208,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:696
 msgid "method resolution order"
-msgstr ""
+msgstr "порядок поиска методов"
 
 #: ../Doc/glossary.rst:698
 msgid ""
@@ -1205,7 +1220,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:702
 msgid "module"
-msgstr ""
+msgstr "модуль"
 
 #: ../Doc/glossary.rst:704
 msgid ""
@@ -1220,7 +1235,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:709
 msgid "module spec"
-msgstr ""
+msgstr "спецификация модуля"
 
 #: ../Doc/glossary.rst:711
 msgid ""
@@ -1238,7 +1253,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:716
 msgid "mutable"
-msgstr ""
+msgstr "изменяемый"
 
 #: ../Doc/glossary.rst:718
 msgid ""
@@ -1248,7 +1263,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:720
 msgid "named tuple"
-msgstr ""
+msgstr "именованый кортеж"
 
 #: ../Doc/glossary.rst:722
 msgid ""
@@ -1270,7 +1285,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:733
 msgid "namespace"
-msgstr ""
+msgstr "пространство имен"
 
 #: ../Doc/glossary.rst:735
 msgid ""
@@ -1287,7 +1302,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:745
 msgid "namespace package"
-msgstr ""
+msgstr "пакет с пространством имен"
 
 #: ../Doc/glossary.rst:747
 msgid ""
@@ -1317,7 +1332,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:762
 msgid "new-style class"
-msgstr ""
+msgstr "класс с новым стилем"
 
 #: ../Doc/glossary.rst:764
 msgid ""
@@ -1329,7 +1344,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:768
 msgid "object"
-msgstr ""
+msgstr "объект"
 
 #: ../Doc/glossary.rst:770
 msgid ""
@@ -1339,7 +1354,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:773
 msgid "package"
-msgstr ""
+msgstr "пакет"
 
 #: ../Doc/glossary.rst:775
 msgid ""
@@ -1354,7 +1369,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:780
 msgid "parameter"
-msgstr ""
+msgstr "параметр"
 
 #: ../Doc/glossary.rst:782
 msgid ""
@@ -1421,7 +1436,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:831
 msgid "path entry"
-msgstr ""
+msgstr "элемент пути"
 
 #: ../Doc/glossary.rst:833
 msgid ""
@@ -1485,7 +1500,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:862
 msgid "PEP"
-msgstr ""
+msgstr "PEP"
 
 #: ../Doc/glossary.rst:864
 msgid ""
@@ -1510,7 +1525,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:877
 msgid "portion"
-msgstr ""
+msgstr "часть"
 
 #: ../Doc/glossary.rst:879
 msgid ""
@@ -1520,7 +1535,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:881
 msgid "positional argument"
-msgstr ""
+msgstr "позиционный аргумент"
 
 #: ../Doc/glossary.rst:884
 msgid "provisional API"
@@ -1609,7 +1624,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:952
 msgid "reference count"
-msgstr ""
+msgstr "количество ссылок"
 
 #: ../Doc/glossary.rst:954
 msgid ""
@@ -1623,7 +1638,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:960
 msgid "regular package"
-msgstr ""
+msgstr "обычный пакет"
 
 #: ../Doc/glossary.rst:962
 msgid ""
@@ -1684,7 +1699,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:995
 msgid "slice"
-msgstr ""
+msgstr "срез"
 
 #: ../Doc/glossary.rst:997
 msgid ""
@@ -1696,7 +1711,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1001
 msgid "special method"
-msgstr ""
+msgstr "специальный метод"
 
 #: ../Doc/glossary.rst:1003
 msgid ""
@@ -1733,7 +1748,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1020
 msgid "text encoding"
-msgstr ""
+msgstr "кодировка текста"
 
 #: ../Doc/glossary.rst:1022
 msgid "A codec which encodes Unicode strings to bytes."
@@ -1741,7 +1756,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1023
 msgid "text file"
-msgstr ""
+msgstr "текстовый файл"
 
 #: ../Doc/glossary.rst:1025
 msgid ""
@@ -1760,7 +1775,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1034
 msgid "triple-quoted string"
-msgstr ""
+msgstr "строка в тройных кавычках"
 
 #: ../Doc/glossary.rst:1036
 msgid ""
@@ -1775,7 +1790,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1043
 msgid "type"
-msgstr ""
+msgstr "тип"
 
 #: ../Doc/glossary.rst:1045
 msgid ""
@@ -1786,7 +1801,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1049
 msgid "type alias"
-msgstr ""
+msgstr "алиас типа"
 
 #: ../Doc/glossary.rst:1051
 msgid "A synonym for a type, created by assigning the type to an identifier."
@@ -1808,7 +1823,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1072
 msgid "type hint"
-msgstr ""
+msgstr "подсказка типа"
 
 #: ../Doc/glossary.rst:1074
 msgid ""
@@ -1831,7 +1846,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1086
 msgid "universal newlines"
-msgstr ""
+msgstr "универсальные переводы строк"
 
 #: ../Doc/glossary.rst:1088
 msgid ""
@@ -1844,7 +1859,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1093
 msgid "variable annotation"
-msgstr ""
+msgstr "аннотация переменной"
 
 #: ../Doc/glossary.rst:1095
 msgid "An :term:`annotation` of a variable or a class attribute."
@@ -1873,7 +1888,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1112
 msgid "virtual environment"
-msgstr ""
+msgstr "виртуальное окружение"
 
 #: ../Doc/glossary.rst:1114
 msgid ""
@@ -1889,7 +1904,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1120
 msgid "virtual machine"
-msgstr ""
+msgstr "виртуальная машина"
 
 #: ../Doc/glossary.rst:1122
 msgid ""
@@ -1899,7 +1914,7 @@ msgstr ""
 
 #: ../Doc/glossary.rst:1124
 msgid "Zen of Python"
-msgstr ""
+msgstr "Дзен Python"
 
 #: ../Doc/glossary.rst:1126
 msgid ""
